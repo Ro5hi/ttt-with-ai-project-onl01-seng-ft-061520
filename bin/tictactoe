@@ -2,7 +2,7 @@
 
 require_relative '../config/environment'
 
-puts "Hello! Would you like to play Tic Tac Toe? Choose 0, 1, or 2 player."
+puts "Hello! Would you like to play Tic Tac Toe?"
 game = Game.new
 until game.won?
   game.play
